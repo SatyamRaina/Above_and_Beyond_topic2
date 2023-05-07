@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Smart Lighting Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Smart Lighting Application</h1>
+    <table>
+      <tr>
+        <td>
+          <div class="light" id="light1">
+            <div class="color-picker-container">
+              <input type="color" class="color-picker" data-light-id="light1">
+            </div>
+          </div>
+          <p class="light-label">Conference Room</p>
+        </td>
+        <td>
+          <div class="light" id="light2">
+            <div class="color-picker-container">
+              <input type="color" class="color-picker" data-light-id="light2">
+            </div>
+          </div>
+          <p class="light-label">Board Room</p>
+        </td>
+        <td>
+          <div class="light" id="light3">
+            <div class="color-picker-container">
+              <input type="color" class="color-picker" data-light-id="light3">
+            </div>
+          </div>
+          <p class="light-label">Game Room</p>
+        </td>
+      </tr>
+    </table>
+    <footer class="footer">
+      <p>© 2020-2021 Satyam Raina, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
